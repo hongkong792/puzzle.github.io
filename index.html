@@ -3,203 +3,266 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Agreement - Block Puzzle by SuperCandy Studio</title>
+    <meta name="robots" content="noindex, nofollow"> <!-- For privacy policy page, avoid search indexing unless needed -->
+    <title>Block Puzzle - Privacy Agreement</title>
     <style>
-        :root {
-            --primary-color: #1a73e8;
-            --text-dark: #202124;
-            --text-light: #6a6b6c;
-        }
-        
-        body {
-            font-family: 'Roboto', Arial, sans-serif;
-            line-height: 1.6;
+        * {
             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            line-height: 1.8;
+            color: #333;
+            background-color: #f9f9f9;
             padding: 20px;
-            color: var(--text-dark);
-        }
-
-        .container {
-            max-width: 800px;
+            max-width: 1200px;
             margin: 0 auto;
-            padding: 2rem;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .last-updated {
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        section {
+            background-color: #fff;
+            padding: 30px;
+            margin-bottom: 30px;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
         }
-
-        h1, h2, h3 {
-            color: var(--primary-color);
-            margin-top: 2rem;
+        h2 {
+            color: #2c3e50;
+            font-size: 22px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
         }
-
-        .section {
-            margin-bottom: 2.5rem;
-            padding: 1.5rem;
-            background: #f8f9fa;
-            border-radius: 6px;
-            border: 1px solid #eee;
+        h3 {
+            color: #34495e;
+            font-size: 18px;
+            margin: 25px 0 15px;
         }
-
-        .legal-box {
-            background: #fff3e0;
-            padding: 1.5rem;
-            border-left: 4px solid #ff6d00;
-            margin: 1.5rem 0;
+        p {
+            margin-bottom: 15px;
+            font-size: 16px;
         }
-
-        .cookie-notice {
-            background: #fff;
-            padding: 1.5rem;
-            border-radius: 6px;
-            margin: 2rem 0;
+        ul, ol {
+            margin: 15px 0 15px 30px;
         }
-
-        .button {
-            display: inline-block;
-            padding: 0.8rem 1.5rem;
-            background: var(--primary-color);
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            margin-top: 1rem;
+        li {
+            margin-bottom: 10px;
+            font-size: 16px;
         }
-
-        .table-of-contents {
-            background: #fff;
-            padding: 1.5rem;
-            border-radius: 6px;
-            margin: 2rem 0;
+        strong {
+            color: #2c3e50;
         }
-
-        .toc-list {
-            list-style: none;
-            padding-left: 0;
+        .definition-item {
+            margin-bottom: 15px;
         }
-
-        .toc-item {
-            margin: 0.5rem 0;
-        }
-
-        @media (max-width: 600px) {
+        @media (max-width: 768px) {
             body {
-                padding: 10px;
+                padding: 15px;
             }
-            
-            .container {
-                padding: 1rem;
+            section {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            h3 {
+                font-size: 16px;
+            }
+            p, li {
+                font-size: 15px;
             }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Privacy Agreement</h1>
-            <p>Last updated: [2025.10.06]</p>
-        </header>
+    <header>
+        <h1>Block Puzzle Privacy Agreement</h1>
+        <p class="last-updated">Last Updated: [Insert Date, e.g., October 2025]</p>
+    </header>
 
-        <nav class="table-of-contents">
-            <h2>Table of Contents</h2>
-            <ul class="toc-list">
-                <li class="toc-item"><a href="#preface">Preface</a></li>
-                <li class="toc-item"><a href="#definitions">Definitions</a></li>
-                <li class="toc-item"><a href="#article1">Article 1: Information Scope</a></li>
-                <li class="toc-item"><a href="#article2">Article 2: Data Usage</a></li>
-                <li class="toc-item"><a href="#article3">Article 3: Data Storage</a></li>
-                <li class="toc-item"><a href="#article4">Article 4: Security Measures</a></li>
-                <li class="toc-item"><a href="#cookies">Cookies Policy</a></li>
-                <li class="toc-item"><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
-
-        <div class="section" id="preface">
+    <main>
+        <!-- Preface Section -->
+        <section id="preface">
             <h2>Preface</h2>
-            <p>SuperCandy Studio ("we") is committed to protecting user privacy while providing high-quality services. This Privacy Agreement outlines how we handle personal information in compliance with applicable laws including the GDPR and Chinese regulations.</p>
-        </div>
+            <p>The Privacy Agreement (hereinafter referred to as "this Agreement") is concluded by you and SuperCandy Studio (hereinafter referred to as "we") and has the force of a contract. While providing high-quality services to our users, we have always paid attention to protecting the personal data security of users and are committed to providing a safer Internet environment for every user. We will collect and use your personal information in accordance with this Privacy Agreement and clarify your control over your personal information.</p>
+            <p>We promise to keep your personal information and other data strictly confidential and process your personal information in strict accordance with the contents of this Privacy Agreement. We will collect, use, store, share and transfer your personal information in accordance with your consent and other legal basis for processing your personal information.</p>
+            <p>We hope that you will read this Privacy Agreement carefully and learn more about how we collect and use information so that you can better understand our services and make appropriate choices. We especially remind users to carefully read all the terms of this Agreement, especially those marked in <strong>bold font</strong>, and such terms should be applied to the greatest extent permitted by Chinese law.</p>
+            <p>If you use the products and services we provide, it means that you agree with the contents we have stated in this Privacy Agreement. Unless otherwise agreed. The terms used in this Privacy Agreement have the same meanings as those in the User Agreement.</p>
+        </section>
 
-        <div class="legal-box" id="definitions">
-            <h3>Key Definitions</h3>
+        <!-- Definitions and Explanations Section -->
+        <section id="definitions">
+            <h2>Definitions and Explanations</h2>
+            <p>Unless otherwise stated, the following terms have the following meanings:</p>
+            <ol>
+                <li class="definition-item">
+                    <strong>1.1 We</strong>: The provider of products and services, namely SuperCandy Studio, which may provide you with products and services through its own websites and platforms, as well as the websites and platforms of its partners. Hereinafter referred to as "we".
+                </li>
+                <li class="definition-item">
+                    <strong>1.2 You</strong>, also known as "players" or "users": A natural person who obtains a non-commercial authorization through the legal means provided by us to install and use the products and services we provide.
+                </li>
+                <li class="definition-item">
+                    <strong>1.3 Products and Services</strong>: Refers to the products or services we provide (including any adapted versions that can be operated on mobile smart devices and/or computer terminals in the form of client/micro-client or web pages), as well as updates, upgrades, patches, expansion packs, etc. related to such products or services, and may include related network servers, websites (including but not limited to the official website or official forum of the game), electronic media, printed materials or electronic documents, etc.
+                </li>
+                <li class="definition-item">
+                    <strong>1.4 Game data</strong>: Refers to various data recorded by the server during your use of the products or services we provide, including but not limited to character data, virtual item data, behavior logs, purchase logs, and other data.
+                </li>
+            </ol>
+        </section>
+
+        <!-- Article 1: Scope of Information Use -->
+        <section id="article-1">
+            <h2>Article 1: Scope of Our Use of Your Information</h2>
+            
+            <h3>1.1 Information You Provide</h3>
+            <p>When you register an account, the registration page will list the information you need to provide, including mobile phone number, identity information, etc. In product and service related marketing activities, your personal sensitive information may be involved, including specific contact information (may include: your real name, bank account number, identity information, QQ number, WeChat number, email address, ID number, passport number, etc.).</p>
+            <p>When you make a payment in the product, you need to provide payment-related information (may include: third-party payment channel account, credit card information). Information submitted when you use customer service or participate in an event we hold, such as the user's name, phone number, birthday, place of origin, gender, hobbies, QQ number, WeChat number, email address, bank card number, ID number, home address, etc.</p>
+
+            <h3>1.2 Information We Collect</h3>
+            <p>When you use our products or services or communicate with us, we will automatically collect certain data from you, including:</p>
+            <ol>
+                <li>Account information: for example, password, nickname, avatar, etc.</li>
+                <li>Software information: for example, software version number, browser type, etc.</li>
+                <li>IP address;</li>
+                <li>Device information: for example, device unique identifier, device type, network type, operating system, etc.</li>
+                <li>Log information: for example, information you search and view when using our products or services, service failure information, referral URLs, etc.; accounts and communication time that you have communicated with when using our products or services;</li>
+                <li>Location information: When you use location-related services, we may obtain your geographic location information through IP address, GPS, WiFi or base station, etc., in order to provide you with relevant services;</li>
+                <li>Communication log information: For example, accounts, communication time and duration, friend lists, group list information, and voiceprint feature value information that users have communicated with when using our services.</li>
+                <li>Payment information: In order to facilitate users to comprehensively judge user accounts and transaction risks, conduct identity authentication, detect and prevent security incidents when paying related orders, we may collect information related to users' virtual property during the transaction process (limited to transaction records, virtual currency, virtual transactions, game redemption codes, passwords, etc.).</li>
+                <li>When you use services provided by a third party, we will regard you as allowing the third party to collect your software information, device information, log information, location information, etc. If you refuse the third party to collect such information, it may cause you to be unable to use the third party's services in the products or services we provide;</li>
+                <li>Other information: When it involves national security and interests, social public interests, public safety, public health, related activities related to criminal investigation, prosecution, trial, execution, etc., the safety of your or others' life and property, but in special circumstances, we cannot obtain your timely authorization, can obtain from other legal and public channels, and other circumstances stipulated by laws and regulations, we may collect your personal information without your consent or authorization.</li>
+            </ol>
+
+            <h3>1.3 Information Generated by You Through Product Services</h3>
+            <p>In the process of your use of product services, some information related to you will be generated in the product, such as screenshots, logs, etc. Or the information shared by other users may contain your information, such as photos posted by other users or videos shared by other users.</p>
+
+            <h3>1.4 Use of Cookies and Web Beacons</h3>
+            <p>To improve your user experience, we will use Cookies and Web Beacons or similar technologies (hereinafter collectively referred to as "Cookies" technology). Cookies technology can help websites identify registered users and calculate the number of users, and is usually used by various websites to determine whether registered users have logged in. We promise that the use of Cookies technology is limited to the purpose of improving service or product quality and optimizing user experience.</p>
+            <p>Cookies technology will generate small files on your device so that we can provide specific functions. You have the right to turn on or off Cookies technology through the settings of your device or browser. However, when you choose to turn off Cookies technology, you may not be able to experience some functions of our product services.</p>
+
+            <h3>1.5 Information Obtained from Third-Party Partners</h3>
+            <p>We may obtain information generated or shared by users when using third-party partner services according to the regulations of third-party partners or the authorization of users. For example, when a user logs in to a third-party partner service using a user account, we will obtain the name and login time of the user's login to the third-party partner service to facilitate user authorization management.</p>
+            <p>This Agreement applies only to the services we provide, and does not apply to any services provided by any third party or the user information usage rules of any third party. We do not assume any responsibility for any third party's use of the information provided by the user. Please carefully read the user agreement or privacy agreement of the third-party partner service.</p>
+
+            <h3>1.6 Specific Sensitive Information Requirements</h3>
+            <p>Some of our services may require users to provide specific personal sensitive information to achieve specific functions. If the user chooses not to provide such information, specific functions in the service may not be used normally, but it will not affect the user's use of other functions in the service. If the user actively provides the user's personal sensitive information, it means that the user agrees that we will process the user's personal sensitive information in accordance with the purpose and method described in this Agreement.</p>
+        </section>
+
+        <!-- Article 2: Use or Disclosure of Information -->
+        <section id="article-2">
+            <h2>Article 2: How We Use or Disclose Your Information</h2>
+            
+            <h3>2.1 Circumstances for Using Personal Information</h3>
+            <p>In order to provide you with better services or products, we will use your personal information in the following circumstances:</p>
+            <ol>
+                <li>In accordance with relevant laws and regulations;</li>
+                <li>In accordance with court judgments, rulings or other legal procedures;</li>
+                <li>In accordance with the requirements of relevant government agencies or other legally authorized organizations;</li>
+                <li>In accordance with your authorization;</li>
+                <li>In accordance with the provisions of the User Agreement;</li>
+                <li>To understand, maintain and improve our services;</li>
+                <li>Respond to users' customer service requirements;</li>
+                <li>Understand users' business and product needs to determine applicable products and services;</li>
+                <li>Contact users for marketing and promotion purposes and provide users with more information about relevant products or services;</li>
+                <li>Conduct research and analysis to improve the quality of our website and services;</li>
+                <li>Improve users' experience and service quality when using the website;</li>
+                <li>Help us effectively manage the website and service content;</li>
+                <li>Analyze the activities of group users on the site and the social information of the entire user group.</li>
+            </ol>
+
+            <h3>2.2 Marketing Use of Non-Sensitive Information</h3>
+            <p>In addition, within the scope permitted by current laws and regulations, we may use your non-sensitive personal information for marketing, including but not limited to: We will use the information you provide to display or provide you with advertising and promotional materials on our website platform, inform you of or recommend our services or product information, and other such information that we think you may be interested in based on your use of the services or products we provide. This also includes information you choose to share when you take an action such as authorization, such as when you add a friend, add a landmark to the dynamic, use the contact import tool, etc.</p>
+
+            <h3>2.3 Specific Information Usage Details</h3>
+            <p>The information we use about you includes:</p>
+            <ol>
+                <li>
+                    <strong>Phone number</strong>: The phone number you provide when registering an account is your unique identity in the product. We use your phone number to identify you in the product in order to provide you with product services. For example: responding to your requests in the product; providing you with customer service, etc. Our use of phone numbers is based on your consent to this privacy agreement.
+                </li>
+                <li>
+                    <strong>IP address</strong>: IP address is a commonly used identification information in network communication. We use your IP address to provide you with services or improve our service quality, such as: establishing network communications with you such as downloads, in-product requests, etc.; identifying your region to provide personalized services; judging the consistency of your login behavior to ensure the security of your account. Our use of IP addresses is based on our contractual obligations to you.
+                </li>
+                <li>
+                    <strong>Device information</strong>: Device identification code, device type, network type, operating system and other device information help us better understand the device situation of your experience product services. We use your device information to provide you with services or improve our service quality, such as: counting device adaptability; feedback and solving the faults you encounter during the experience of product services; judging the consistency of your login behavior to ensure the security of your account. Our use of IP addresses is based on our contractual obligations to you.
+                </li>
+                <li>
+                    <strong>Contact information</strong>: The contact information you provide in a specific scenario, such as mobile phone number, email address, etc., will only be used to complete the purpose of the scenario, such as: responding to your feedback. Our use of contact information is based on your consent to this privacy agreement.
+                </li>
+            </ol>
+
+            <h3>2.4 Circumstances for Sharing Information</h3>
+            <p>We may share your information in the following circumstances:</p>
+            <ol>
+                <li>With your prior consent, we may share your information with third parties;</li>
+                <li>For the purpose of external processing only, we may share your personal information with third-party partners (third-party service providers, contractors, agents, advertising partners, application developers, etc., such as communication service providers that send emails or push notifications on our behalf, map service providers that provide location services for us; they may not be located in your jurisdiction) and let them process the above information for us in accordance with our instructions, privacy agreements and other relevant confidentiality and security measures, and use it to provide you with our products or services, so as to achieve some of the purposes of our mobile phone information, fulfill our obligations in the User Agreement or this Privacy Agreement and exercise our rights, etc.</li>
+            </ol>
+
+            <h3>2.5 Exceptions for Disclosure/Sharing</h3>
+            <p>Except for the circumstances described in this Agreement, user data will not be disclosed and shared with third parties in the form of identifiable specific personal real identity information. However, the following circumstances are excluded:</p>
+            <ol>
+                <li>Obtaining the user's prior consent/permission;</li>
+                <li>Due to the requirements of legal procedures such as judicial and administrative procedures;</li>
+                <li>In limited circumstances, we may hire third-party suppliers, consultants or other service providers to provide us with necessary maintenance, support and services, but we should require such third parties to sign necessary terms with us to protect data security and confidentiality;</li>
+                <li>In an emergency, it is reasonably judged to be to protect the legitimate rights and interests and safety of us, our agents, customers, end users or others;</li>
+                <li>We file a lawsuit or arbitration against the user to protect the legitimate rights and interests of ourselves or other users;</li>
+                <li>We are or intend to conduct major changes such as corporate mergers and acquisitions, reorganizations, and sales of all or part of shares and/or assets, including but not limited to due diligence processes.</li>
+            </ol>
+
+            <h3>2.6 Automatic Decision-Making and Data Anonymization</h3>
+            <p>Personal information legally collected with the user's consent is labeled or profiled through information systems, algorithms and other non-human automatic decision-making technologies, and the automatic decision-making decisions made (such as commercial information push, etc.) are made. This behavior constitutes data unidentification and should not be regarded as us sharing, transferring or disclosing any personal information of the user to any third party.</p>
+        </section>
+
+        <!-- Article 3: Information Storage -->
+        <section id="article-3">
+            <h2>Article 3: How We Store Your Information</h2>
+            <ol>
+                <li>We will take appropriate security measures and technical means to store and protect your personal information to prevent loss, misuse, unauthorized access or leakage, tampering or destruction.</li>
+                <li>According to the provisions of this clause, we only allow third parties such as employees who need to know this information to access personal information, and require them to fulfill the corresponding confidentiality obligations.</li>
+                <li>If we involve transferring personal information overseas, we will clearly inform you and obtain your consent.</li>
+            </ol>
+        </section>
+
+        <!-- Article 4: Information Security -->
+        <section id="article-4">
+            <h2>Article 4: How We Ensure the Security of Your Information</h2>
+            <ol>
+                <li>We strictly abide by laws and regulations to protect your information;</li>
+                <li>We will adopt security protection measures that meet industry standards, including establishing reasonable system specifications and security technologies to prevent your information from being accessed, used, modified, damaged or lost, using encryption technology to protect your information, and isolating and storing your information through isolation technology.</li>
+                <li>We establish special management systems, processes and organizations to ensure information security, strictly limit the scope of personnel who access information, require them to comply with confidentiality obligations, and conduct reviews.</li>
+                <li>If a security incident caused by personal information occurs, we will report the first incident to the relevant competent authority, and immediately conduct problem investigation and implement emergency measures. By sending notifications to users to remind them to change their passwords. We may also notify users through various means such as phone calls and text messages, and operate publicity on our public operation platform to stop data leakage.</li>
+                <li>Please understand that due to technical limitations and risk prevention limitations, even if we have tried our best to strengthen security measures, we cannot always guarantee 100% security of information. There may still be risks of user data being stolen, illegally owned or abused, causing personal, property and reputation losses to users. You need to understand that the products and services you use have corresponding risks.</li>
+            </ol>
+        </section>
+
+        <!-- Contact Section (Required for Google Review) -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, concerns or requests regarding this Privacy Agreement or the handling of your personal information, please contact us through the following channels:</p>
             <ul>
-                <li><strong>We/Our:</strong> SuperCandy Studio, including our affiliates and partners</li>
-                <li><strong>You/User:</strong> Individual using our mobile applications and services</li>
-                <li><strong>Game Data:</strong> Includes character data, virtual items, behavioral logs, and transaction records</li>
+                <li>Email: <a href="mailto:privacy@supercandystudio.com">privacy@supercandystudio.com</a></li>
+                <li>Address: [China Guanzhou]</li>
+                <li>Phone: [+8615323321194]</li>
             </ul>
-        </div>
-
-        <div class="section" id="article1">
-            <h2>1. Information We Collect</h2>
-            <div class="cookie-notice">
-                <h3>Data Collection Methods</h3>
-                <ul>
-                    <li>Explicitly provided information (registration, payment)</li>
-                    <li>Automatically collected data (device info, IP address)</li>
-                    <li>Third-party service data (analytics providers)</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="section" id="article2">
-            <h2>2. Data Usage & Sharing</h2>
-            <div class="legal-box">
-                <h3>Permitted Uses</h3>
-                <ul>
-                    <li>Service delivery and improvement</li>
-                    <li>Security monitoring and fraud prevention</li>
-                    <li>Marketing communications (with consent)</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="section" id="article3">
-            <h2>3. Data Storage Practices</h2>
-            <div class="legal-box">
-                <h3>Security Measures</h3>
-                <ul>
-                    <li>TLS 1.2+ encryption for data in transit</li>
-                    <li>AES-256 encryption for data at rest</li>
-                    <li>Regular third-party security audits</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="section" id="article4">
-            <h2>4. Security Protocol</h2>
-            <div class="legal-box">
-                <h3>Incident Response</h3>
-                <ul>
-                    <li>72-hour breach notification to authorities</li>
-                    <li>User notification via in-app alerts</li>
-                    <li>Forensic analysis and system hardening</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="section" id="cookies">
-            <h2>Cookies & Tracking Technologies</h2>
-            <div class="cookie-notice">
-                <h3>Cookie Usage</h3>
-                <ul>
-                    <li>Session management (PHPSESSID)</li>
-                    <li>Analytics (Google Analytics)</li>
-                    <li>Personalized ads (AdMob)</li>
-                </ul>
-                <a href="/cookie-settings" class="button">Manage Preferences</a>
-            </div>
-        </div>
-
-        <div class="section" id="contact">
-            <h2>Contact Information</h2>
-            <p>Data Protection Officer: <a href="mailto:dpo@supercandystudio.com">dpo@supercandystudio.com</a><br>
-            Regulatory inquiries: +86-15323321194</p>
-        </div>
-    </div>
-
-    <footer>
-        <p>Policy last updated: [Date] | Version: 2.1</p>
-        <nav>
-            <a href="/terms-of-service">Terms of Service</a> |
-            <a href="/gdpr-compliance">GDPR Compliance</a>
-        </nav>
-    </footer>
+        </section>
+    </main>
 </body>
 </html>
